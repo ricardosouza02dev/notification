@@ -1,0 +1,31 @@
+{
+    "name": "ricardosouza02dev/notification",
+    "description": "Essa é uma biblioteca que usa composer como base para gerar notificações via email",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ricardosouza02dev\\Notification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ricardo Souza",
+            "email": "souzanunez@hotmail.com",
+            "homepage": "https://ricardosouza02.dev.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.5.0"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
